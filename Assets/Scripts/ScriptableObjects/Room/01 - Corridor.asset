@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c213f7dbceb04e44f9144893d92c4486, type: 3}
+  m_Name: 01 - Corridor
+  m_EditorClassIdentifier: 
+  description: 'you''re in the corridor now, it''s a cold place, you heard a distant
+    sound of drop water coming in the north. '
+  roomName: Corridor
+  exits:
+  - keyString: south
+    exitDescription: Come back to the first Room.
+    valueRoom: {fileID: 11400000, guid: db23fdfe10d771e4aa6d13c33437702d, type: 2}
+  - keyString: north
+    exitDescription: There's a wood door over there!!
+    valueRoom: {fileID: 11400000, guid: 3df09f4a647e5b347a9e9344c8b4500c, type: 2}
